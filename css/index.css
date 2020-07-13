@@ -1,0 +1,192 @@
+#mapView {
+  width: 375px;
+  height: 449px;
+}
+
+.info-container {
+  width: 375px;
+  height: 363px;
+  background-color: #f9f9f9;
+}
+
+.location-container {
+  width: 338px;
+  height: 48px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 18px;
+  margin-left: 19px;
+  margin-top: 18px;
+}
+
+.location-info {
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #091d3c;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 22px;
+}
+
+.location-target {
+  font-size: 23px;
+  margin-right: 25px;
+  margin-top: 13px;
+  margin-bottom: 12px;
+  color: #091d3c;
+  background-color: #f9f9f9;
+  outline: none;
+  cursor: pointer;
+}
+
+.confirmation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmation-title {
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #091d3c;
+  margin-top: 39px;
+  margin-bottom: 14px;
+}
+
+.confirmation-description {
+  width: 278px;
+  height: 50px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #787878;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.confirmation-btn {
+  width: 308px;
+  height: 47px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #f9f9f9;
+  background-color: #091d3c;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+}
+
+.footer-container {
+  width: 375px;
+  height: 76px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 59px;
+}
+
+.footer-info {
+  font-family: 'Barlow', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #a4a4a4;
+  margin-bottom: 9px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 19px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 12px;
+  margin-right: 37px;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+}
+
+.plate {
+  font-family: 'Barlow', sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  color: #091d3c;
+}
+
+.protocol-number {
+  font-family: 'Barlow', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #091d3c;
+  margin-left: 9px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.custom-div-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.marker-container {
+  width: 116px;
+  height: 24px;
+  border-radius: 3px;
+  background-color: #091d3c;
+  text-align: center;
+}
+
+.marker-text {
+  width: 96px;
+  height: 13px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.marker-line {
+  width: 2px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  background-color: #091d3c;
+}
+
+.marker-icon {
+  color: #091d3c;
+}
+
+.warning {
+  width: 330px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #091d3c;
+  text-align: center;
+}
